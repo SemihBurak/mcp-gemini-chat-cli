@@ -98,7 +98,3 @@ Press **Tab** to auto-complete commands and document IDs.
    - Plain messages are sent directly to Gemini.
 3. Gemini receives the conversation along with MCP tool declarations. If the model decides to call a tool (e.g. `read_doc_contens`, `edit_doc`), the tool call is forwarded to the appropriate MCP client and the result is fed back to Gemini.
 4. The loop continues until Gemini returns a final text response, which is printed to the terminal.
-
-## License
-
-MIT
